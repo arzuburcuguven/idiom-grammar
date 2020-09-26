@@ -1,2 +1,3 @@
 Idiom categories written in CCGLAB.
-<a href="https://github.com/bozsahin/ccglab">ccglab</a> installation is required to try them out.
+
+Note that <a href="https://github.com/bozsahin/ccglab">ccglab</a> installation is required to try them out.
