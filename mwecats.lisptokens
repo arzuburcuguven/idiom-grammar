@@ -1,0 +1,81 @@
+(onu n  |:=|   |(| s |\\| np |[| case |=| nom |]|  |)|  |/|  |(| s |\\| np |[| case |=| nom |]|  |\\| np |[| case |=| acc |]|  |)|  |:|   |\\| p |.| p !onu |;| 
+ona n  |:=|   |(| s |\\| np |[| case |=| nom |]|  |)|  |/|  |(| s |\\| np |[| case |=| nom |]|  |\\| np |[| case |=| dat |]|  |)|  |:|   |\\| p |.| p !ona |;| 
+onun n  |:=|   |(| s |\\| np |[| case |=| nom |]|  |)|  |/|  |(| s |\\| np |[| case |=| nom |]|  |\\| np |[| case |=| gen |]|  |)|  |:|   |\\| p |.| p !onun |;| 
+konunun n  |:=|  s |/|  |(| s |\\| np |[| case |=| gen |]|  |)|   |:|   |\\| p |.| p !konunun |;| 
+konuyu n  |:=|   |(| s |\\| np |[| case |=| nom |]|  |)|  |/|  |(| s |\\| np |[| case |=| nom |]|  |\\| np |[| case |=| acc |]|  |)|  |:|   |\\| p |.| p !konuyu |;| 
+ayşe n  |:=|  s |/|  |(| s |\\| np |[| case |=| nom |]|  |)|   |:|   |\\| p |.| p !ayse |;| 
+ayşenin n  |:=|  s |/|  |(| s |\\| np |[| case |=| gen |]|  |)|   |:|   |\\| p |.| p !aysenin |;| 
+ayşe n   |:=|  np  |:|  !ayşe |;| 
+
+aştı v  |:=|   |(| s |\\| np |[| case |=| nom |]|  |)|  |\\|  |*| "çizmeyi"  |:|   |\\| x |\\| y |.| !judged !presumptuously _ x y |;| 
+çizmeyi n  |:=|  n |[| h |=| çizmeyi |]|   |:|  !çizmeyi |;| 
+attı v  |:=|   |(| s |\\| np |[| case |=| nom |]|  |\\| np |[| case |=| dat |]|  |)|  |\\| np |[| h |=| çamur |]|   |:|   |\\| x |\\| y |\\| z |.| !made _ x !slander y z |;| 
+çamur np  |:=|  np |[| h |=| çamur |]|   |:|  !çamur |;| 
+attı v  |:=|   |(| s |\\| np |[| case |=| nom |]|  |\\| np |[| case |=| dat |]|  |)|  |\\|  |*| "kapağı"  |:|   |\\| x |\\| y |\\| z |.| !took !refuge !in _ x y z |;| 
+kapağı n  |:=|  n |[| h |=| kapağı |]|   |:|  !kapağı |;| 
+attı v  |:=|   |(| s |\\| np |[| case |=| nom |]|  |)|  |\\|  |*| "takla"  |:|   |\\| x |\\| y |.| !rejoiced _ x y |;| 
+takla n  |:=|  n |[| h |=| takla |]|   |:|  !takla |;| 
+attı v  |:=|   |(| s |\\| np |[| case |=| nom |]|  |)|  |\\|  |*| "topu"  |:|   |\\| x |\\| y |.| !gave !up _ x y |;| 
+topu n  |:=|  n |[| h |=| topu |]|   |:|  !topu |;| 
+boyadı v  |:=|   |(| s |\\| np |[| case |=| nom |]|  |\\| np |[| case |=| gen |]|  |)|  |\\|  |*| "gözünü"  |:|   |\\| x |\\| y |\\| z |.| !misled _ x y z |;| 
+gözünü n  |:=|  n |[| h |=| gözünü |]|   |:|  !gözünü |;| 
+çıkardı v  |:=|   |(| s |\\| np |[| case |=| nom |]|  |\\| np |[| case |=| acc |]|  |)|  |\\|  |*| "baştan"  |:|   |\\| x |\\| y |\\| z |.| !seduced _ x y z |;| 
+baştan n  |:=|  n |[| h |=| baştan |]|   |:|  !baştan |;| 
+çıkardı v  |:=|   |(| s |\\| np |[| case |=| nom |]|  |\\| np |[| case |=| acc |]|  |)|  |\\|  |*| "cebinden"  |:|   |\\| x |\\| y |\\| z |.| !superior to _ x y z |;| 
+cebinden n  |:=|  n |[| h |=| cebinden |]|   |:|  !cebinden |;| 
+çıkardı v  |:=|   |(| s |\\| np |[| case |=| nom |]|  |\\| np |[| case |=| acc |]|  |)|  |\\|  |*| "gözden"  |:|   |\\| x |\\| y |\\| z |.| !may !sacrifice _ x y
+z |;| 
+gözden n  |:=|  n |[| h |=| gözden |]|   |:|  !gözden |;| 
+çıktı v  |:=|   |(| s |\\| np |[| case |=| gen |]|  |)|  |\\|  |*| "suyu"  |:|   |\\| x |\\| y |.| !lost !meaning !by !overuse _ x y |;| 
+suyu n  |:=|  n |[| h |=| suyu |]|   |:|  !suyu |;| 
+dayandı v  |:=|   |(| s |\\| np |[| case |=| nom |]|  |)|  |\\|  |*| "kapıya"  |:|   |\\| x |\\| y |.| !deadline !arrived _ x y |;| 
+kapıya n  |:=|  n |[| h |=| kapıya |]|   |:|  !kapıya |;| 
+dikti v  |:=|   |(| s |\\| np |[| case |=| nom |]|  |)|  |\\|  |*| "nalları"  |:|   |\\| x |\\| y |\\| z |.| !died _ x y z |;| 
+nalları n  |:=|  n |[| h |=| nalları |]|   |:|  !nalları |;| 
+dikti v  |:=|   |(| s |\\| np |[| case |=| nom |]|  |\\| np |[| case |=| dat |]|  |)|  |\\|  |*| "tüy"  |:|   |\\| x |\\| y |\\| z |.| !worsened _ x y z |;| 
+tüy n  |:=|  n |[| h |=| tüy |]|   |:|  !tüy |;| 
+devirdi v  |:=|   |(| s |\\| np |[| case |=| nom |]|  |)|  |\\| np |[| h |=| çam |]|   |:|   |\\| x |\\| y |.| !made _ x !blunder y |;| 
+çam np  |:=|  np |[| h |=| çam |]|   |:|  !çam |;| 
+düştü v  |:=|   |(| s |\\| np |[| case |=| nom |]|  |)|  |\\|  |*| "suya"  |:|   |\\| x |\\| y |.| !got !cancelled _ x y |;| 
+suya n  |:=|  n |[| h |=| suya |]|   |:|  !suya |;| 
+düştü v  |:=|   |(| s |\\| np |[| case |=| nom |]|  |\\| np |[| case |=| gen |]|  |)|  |\\|  |*| "ocağına" |:|   |\\| x |\\| y |\\| z |.| !is !at !mercy _ x y z |;| 
+ocağına n  |:=|  n |[| h |=| ocağına |]|   |:|  !ocağına |;| 
+gösterdi v  |:=|   |(| s |\\| np |[| case |=| nom |]|  |\\| np |[| case |=| acc |]|  |)|  |\\|  |*| "adres"  |:|   |\\| x |\\| y |\\| z |.| !targeted _ x y z |;| 
+adres n  |:=|  n |[| h |=| adres |]|   |:|  !adres |;| 
+gösterdi v  |:=|   |(| s |\\| np |[| case |=| nom |]|  |\\| np |[| case |=| dat |]|  |)|  |\\|  |*| "gününü"  |:|   |\\| x |\\| y |\\| z |.| !punished _ x y z |;| 
+gününü n  |:=|  n |[| h |=| gününü |]|   |:|  !gününü |;| 
+kaçırdı v  |:=|   |(| s |\\| np |[| case |=| nom |]|  |)|  |\\|  |*| "keçileri"  |:|   |\\| x |\\| y |.| !become !insane _ x y |;| 
+keçileri n  |:=|  n |[| h |=| keçileri |]|   |:|  !keçileri |;| 
+kaldırdı v  |:=|   |(| s |\\| np |[| case |=| nom |]|  |\\| np |[| case |=| acc |]|  |)|  |\\|  |*| "rafa"  |:|   |\\| x |\\| y |\\| z |.| !put !on !hiatus _ x y z  |;| 
+rafa n  |:=|  n |[| h |=| rafa |]|   |:|  !rafa |;| 
+koydu v  |:=|   |(| s |\\| np |[| case |=| nom |]|  |)|  |\\|  |*| "posta"  |:|   |\\| x |\\| y |.| !threatened _ x y |;| 
+posta n  |:=|  n |[| h |=| posta |]|   |:|  !posta |;| 
+koştu v  |:=|   |(| s |\\| np |[| case |=| nom |]|  |\\| np |[| case |=| gen |]|  |)|  |\\| "peşinden" |:|   |\\| x |\\| y |.| !pursued _ x y z |;| 
+peşinden n  |:=|  n |[| h |=| peşinden |]|   |:|  !peşinden |;| 
+sattı v  |:=|   |(| s |\\| np |[| case |=| nom |]|  |)|  |\\|  |*| "sirke"  |:|   |\\| x |\\| y |.| !sulk _ x y |;| 
+sirke n  |:=|  n |[| h |=| sirke |]|   |:|  !sirke |;| 
+soktu v  |:=|   |(| s |\\| np |[| case |=| nom |]|  |\\| np |[| case |=| dat |]|  |)|  |\\|  |*| "burnunu"  |:|   |\\| x |\\| y |\\| z |.| !intrude _ x y z |;| 
+burnunu n  |:=|  n |[| h |=| burnunu |]|   |:|  !burnunu |;| 
+soktu v  |:=|   |(| s |\\| np |[| case |=| nom |]|  |\\| np |[| case |=| dat |]|  |)|  |\\|  |*| "çomak"  |:|   |\\| x |\\| y |\\| z |.| !prevented _ x y z |;| 
+çomak n  |:=|  n |[| h |=| çomak |]|   |:|  !çomak |;| 
+tuttu v  |:=|   |(| s |\\| np |[| case |=| nom |]|  |\\| np |[| case |=| dat |]|  |)|  |\\|  |*| "çanak"  |:|   |\\| x |\\| y |\\| z |.| !supported !maliciously _
+x y z |;| 
+çanak n  |:=|  n |[| h |=| çanak |]|   |:|  !çanak |;| 
+tutuştu v  |:=|   |(| s |\\| np |[| case |=| gen |]|  |)|  |\\| "etekleri"  |:|   |\\| x |\\| y |.| !panic _ x y |;| 
+etekleri n  |:=|  n |[| h |=| etekleri |]|   |:|  !etekleri |;| 
+vermedi v  |:=|   |(| s |\\| np |[| case |=| nom |]|  |\\| np |[| case |=| dat |]|  |)|  |\\|  |*| "renk"  |:|   |\\| x |\\| y |\\| z |.| !concealed !emotions _
+x y z |;| 
+renk n  |:=|  n |[| h |=| renk |]|   |:|  !renk |;| 
+yaktı v  |:=|   |(| s |\\| np |[| case |=| nom |]|  |)|  |\\|  |*| "kına"  |:|   |\\| x |\\| y |.| !gloat _ x y |;| 
+kına n  |:=|  n |[| h |=| kına |]|   |:|  !kına |;| 
+yatırdı v  |:=|   |(| s |\\| np |[| case |=| nom |]|  |\\| np |[| case |=| acc |]|  |)|  |\\|  |*| "masaya"  |:|   |\\| x |\\| y |\\| z |.| !discussed !in !detail
+_ x y z  |;| 
+masaya n  |:=|  n |[| h |=| masaya |]|   |:|  !masaya |;| 
+yattı v  |:=|   |(| s |\\| np |[| case |=| nom |]|  |)|  |\\|  |*| "çamura"  |:|   |\\| x |\\| y |.| !broke !promise _ x y |;| 
+çamura n  |:=|  n |[| h |=| çamura |]|   |:|  !çamura |;| 
+yazmış v  |:=|   |(| s |\\| np |[| case |=| nom |]|  |\\| np |[| case |=| nom |]|  |)|  |\\|  |*| "kitabını"  |:|   |\\| x |\\| y |.| !is !expert !at_ x y z |;| 
+kitabını n  |:=|  n |[| h |=| kitabını |]|   |:|  !kitabını |;| 
+
+
+
+)
